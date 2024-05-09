@@ -1,0 +1,109 @@
+.footer-wrapper {
+  background: #f2eff6;
+  padding: 50px 0px;
+  .footer-content {
+    .footer-logo-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    .footer-text {
+      margin: 25px 0px;
+      p {
+        color: #000;
+        text-align: center;
+        font-family: "Creato Display";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 179.4%; /* 32.292px */
+      }
+    }
+    .footerLinks {
+      ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        li {
+          margin: 0px 10px;
+          padding: 0 15px;
+          border-left: 1px solid #000;
+          &:nth-child(1) {
+            border-left: none;
+          }
+          a {
+            color: #000;
+            font-family: "Creato Display";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 179.4%; /* 32.292px */
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .footersocial-icons {
+      ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        li {
+          margin: 20px 15px;
+          a {
+            color: #000;
+            font-size: 20px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+.footer-bottom-wrapper {
+  background: #f2eff6;
+  padding: 20px;
+  .footer-bottom-content {
+    p {
+      color: #000;
+      font-family: "Creato Display";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 179.4%; /* 32.292px */
+      margin: 0px;
+    }
+  }
+  .footer-bottom-img {
+    text-align: right;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .footer-wrapper {
+    .footer-content {
+      .footerLinks {
+        ul {
+          flex-direction: column;
+          li {
+            border-left: none;
+            border-bottom: 1px solid #000;
+            padding: 15px 0px;
+          }
+        }
+      }
+      .footersocial-icons {
+        ul {
+          li {
+            margin: 0px 15px;
+          }
+        }
+      }
+    }
+  }
+}

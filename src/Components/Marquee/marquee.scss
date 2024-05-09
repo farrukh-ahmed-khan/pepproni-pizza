@@ -1,0 +1,50 @@
+.marquee-wrapper {
+  padding: 20px 0;
+  background: #1561d2;
+  box-shadow: -18px -14px 65px 0px rgba(0, 0, 0, 0.13);
+  .marq-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    .marq-text {
+      display: flex;
+      gap: 30px;
+      h1 {
+        white-space: nowrap;
+        animation: marquee 10s linear infinite;
+        color: #fff;
+        font-family: Anton;
+        font-size: 65.17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        position: relative;
+        margin: 0 20px;
+        &::after {
+          content: "";
+          width: 60px;
+          height: 60px;
+          background-image: url(/src/assets/images/star.png);
+          background-repeat: no-repeat;
+          position: absolute;
+          top: 21%;
+          right: 100%;
+          white-space: nowrap;
+        }
+      }
+      @keyframes marquee {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    }
+  }
+}

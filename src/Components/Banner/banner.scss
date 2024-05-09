@@ -1,0 +1,98 @@
+.pep-banner {
+  background: url("../../assets/images/banner-bg.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 100px 465px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .pep-banner-content {
+    h4 {
+      color: #16b55f;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 140% */
+      letter-spacing: 0.03px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-family: Anton;
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 76px; /* 108.571% */
+      letter-spacing: -0.35px;
+      text-transform: uppercase;
+    }
+    p {
+      color: #fff;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 144.444% */
+      letter-spacing: 0.045px;
+    }
+    .banner-btn-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      gap: 15px;
+      .pep-table-btn {
+        background: #f54333;
+        color: #fff;
+
+        text-align: center;
+        /* Poppins/Button/SemiBold */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.08px;
+        text-transform: uppercase;
+        padding: 15px 20px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        &:hover {
+          background: #fff;
+          color: #f54333;
+        }
+      }
+      .pep-view-btn {
+        background: #fff;
+        color: #1561d2;
+        text-align: center;
+
+        /* Poppins/Button/SemiBold */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.08px;
+        text-transform: uppercase;
+        padding: 15px 20px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+
+        &:hover {
+          background: #1561d2;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.visitbanner-wrap {
+  padding: 100px 0;
+  .flat-offer-area {
+    .flat-offer {
+      h2 {
+        color: #16b55f;
+        text-align: center;
+        /* Poppins/H6/Medium */
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 140% */
+        letter-spacing: 0.03px;
+      }
+      h3 {
+        color: #222;
+        text-align: center;
+        font-family: Anton;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; /* 116.667% */
+        text-transform: uppercase;
+      }
+    }
+    .flat-offer-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  .visit-us-wrapper {
+    .visit-us {
+      .visit-head {
+        h2 {
+          color: #222;
+          text-align: center;
+          font-family: Anton;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 56px; /* 116.667% */
+          text-transform: uppercase;
+          text-align: center;
+        }
+        p {
+          color: #1561d2;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px; /* 120% */
+          letter-spacing: 0.03px;
+          padding-left: 10px;
+        }
+        h3 {
+          color: #f54333;
+          text-align: center;
+
+          /* Poppins/H4/Bold */
+          font-family: Poppins;
+          font-size: 34px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 40px; /* 117.647% */
+          letter-spacing: 0.085px;
+        }
+      }
+      .location-wrap {
+        .location {
+          h4 {
+            color: #1d4746;
+            text-align: center;
+
+            /* Poppins/H6/Bold */
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px; /* 120% */
+            letter-spacing: 0.03px;
+          }
+          p {
+            color: #275d5d;
+            text-align: center;
+            text-align: center;
+
+            /* Poppins/Body 1/Regular */
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+            letter-spacing: 0.08px;
+          }
+        }
+      }
+    }
+  }
+}
