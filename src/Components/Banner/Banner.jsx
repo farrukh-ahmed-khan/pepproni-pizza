@@ -2,15 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./banner.scss";
 
-const Banner = () => {
+const Banner = ({title,description,btnText}) => {
   return (
     <div className="pep-banner">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="pep-banner-content">
-              <h4>PIZZA SHOP in MICHIGAN</h4>
-              <h2>We believe that good food improves mood</h2>
+              <h4>{description}</h4>
+              <h2>{title}</h2>
+              {btnText === true ?
+              <div>
               <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -24,6 +26,7 @@ const Banner = () => {
                   View Menu
                 </Link>
               </div>
+            </div> : null}
             </div>
           </div>
         </div>

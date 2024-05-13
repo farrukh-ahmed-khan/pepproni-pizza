@@ -15,12 +15,12 @@ const Header = () => {
     {
       id: 2,
       title: "About",
-      link: "/about",
+      link: "/Aboutus",
     },
     {
       id: 3,
       title: "Menu",
-      link: "/menu",
+      link: "/MenuScreen",
     },
     {
       id: 4,
@@ -30,7 +30,7 @@ const Header = () => {
     {
       id: 5,
       title: "contact us",
-      link: "/contact",
+      link: "/Contactus",
     },
   ];
 
