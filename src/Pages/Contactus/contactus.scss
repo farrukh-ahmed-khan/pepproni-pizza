@@ -1,0 +1,260 @@
+.best-pizza {
+  padding: 100px 0;
+
+  .best-pizza-img {
+    margin-bottom: 20px;
+  }
+
+  .best-pizza-content {
+    h2 {
+      color: #16b55f;
+      font-family: Anton;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 64.5px;
+      /* 134.375% */
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    h4 {
+      color: #222;
+      text-align: center;
+      font-family: Anton;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 39px;
+      /* 121.875% */
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    P {
+      color: #727272;
+      text-align: center;
+
+      /* Poppins/Body 2/Regular */
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      /* 157.143% */
+      letter-spacing: 0.035px;
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      border-radius: 15px;
+      background: #f54333;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #fff;
+      text-align: center;
+
+      /* Poppins/Button/SemiBold */
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+      /* 150% */
+      letter-spacing: 0.08px;
+      text-transform: uppercase;
+      text-align: center;
+      transition: all 0.3s ease;
+
+      &:hover {
+        border: 1px solid #f54333;
+        background-color: #fff;
+        color: #f54333;
+      }
+    }
+  }
+}
+
+.Contact-us {
+  padding: 100px 0;
+
+  .site-img {
+    position: absolute;
+    right: 0;
+    width: 110px;
+  }
+
+  .Contact-us-Frame {
+    .mapouter {
+      position: relative;
+      text-align: right;
+      height: 400px;
+      width: 1300px;
+    }
+
+    .gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      height: 400px;
+      width: 1300;
+    }
+  }
+}
+
+.call-now {
+  // padding: 100px 0;
+
+  .white-board {
+    border-top: 2px solid #F54333;
+    background-color: #fff;
+    height: 300px;
+    box-shadow: rgba(255, 255, 255, 0.61) 0px 1px 4px 1px;
+    border-radius: 10px;
+
+    h2 {
+      color: #222;
+      text-align: center;
+      font-family: Anton;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 39px;
+      /* 121.875% */
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    h3 {
+      color: #222;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 39px;
+      /* 121.875% */
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .bottom-img {
+      float: right;
+    }
+
+
+  }
+}
+
+.form-section {
+  background-color: #1561D2;
+  width: 100%;
+  margin: -130px 0 0 0;
+  
+  .form-control {
+    background: transparent;
+    border: none;
+  }
+  .form-control input {
+    margin: 0px 0;
+    width: 100%;
+    background: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+  }
+  .Contact-us-Form {
+    margin: 180px auto 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+  }
+  #comment {
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    margin: 0 0 60px 0;
+    padding: 10px 0 50px 18px;
+  }
+.btn-sumit {
+    margin: 0 auto 70px auto;
+    display: table;
+    padding: 10px 20px;
+    background: #F54333;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: none; 
+    
+  }
+  #form {
+    margin: 0 auto;
+  }
+}
+
+.ordernow-sec {
+  padding-top: 100px;
+  overflow: hidden;
+
+  .ordernow-head {
+    position: relative;
+
+    h3 {
+      font-family: Anton;
+      font-size: 292px;
+      font-style: normal;
+      font-weight: 400;
+      position: absolute;
+      top: 301px;
+      line-height: 0px;
+      text-transform: uppercase;
+      text-align: center;
+      z-index: -1;
+      color: #e9e9e2;
+    }
+
+    h2 {
+      color: #222;
+      font-family: Anton;
+      font-size: 292px;
+      font-style: normal;
+      font-weight: 400;
+      position: absolute;
+      top: 401px;
+      line-height: 0px;
+      text-transform: uppercase;
+      text-align: center;
+      z-index: -1;
+    }
+  }
+
+  .marques-wrappers {
+    position: relative;
+    top: -363px;
+
+    .marque1 {
+      position: relative;
+      width: 111%;
+      left: -49px;
+      transform: rotate(349deg);
+    }
+
+    .marque2 {
+      position: relative;
+      transform: rotate(5deg);
+      width: 110%;
+      left: -40px;
+
+      .marquee-wrapper {
+        background-color: #f54333;
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState,useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -22,16 +22,23 @@ import icon2 from "../../assets/images/icon-choose2.png";
 import icon3 from "../../assets/images/icon-choose3.png";
 import icon4 from "../../assets/images/icon-choose4.png";
 import pizzabump from "../../assets/images/pizza-bump.png";
-
+import { useDispatch,useSelector } from "react-redux";
+import { courseListStart } from "../../store/actions/AppActions";
 import "./home.scss";
 import VisitsBanner from "../../Components/VisitsBanner/VisitsBanner";
 
 const Home = () => {
+  // const dispatch = useDispatch()
+
+  // useEffect(() => {
+  //   dispatch(courseListStart("token"))
+  // });
+
   return (
     <div className="">
       <Header />
       <section className="middle-sections">
-        <Banner />
+        <Banner title={"We believe that good food improves mood" } description={"PIZZA SHOP in MICHIGAN"} btnText={true}/>
         <Marquee />
       </section>
       <section className="best-pizza">
