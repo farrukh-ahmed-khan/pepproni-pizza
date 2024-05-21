@@ -17,7 +17,7 @@ import { courseListStart } from "../../store/actions/AppActions";
 import "./aboutus.scss";
 import VisitsBanner from "../../Components/VisitsBanner/VisitsBanner";
 
-const Home = () => {
+const About = () => {
   // const dispatch = useDispatch()
 
   // useEffect(() => {
@@ -55,9 +55,9 @@ const Home = () => {
       <section className="visit">
         <VisitsBanner/>
       </section>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
 
-export default Home;
+export default About;
