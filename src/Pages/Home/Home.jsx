@@ -379,7 +379,7 @@ const Home = () => {
       <section className="visit">
         <VisitsBanner/>
       </section>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

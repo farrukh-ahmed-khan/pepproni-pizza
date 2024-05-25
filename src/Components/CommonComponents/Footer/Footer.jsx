@@ -10,84 +10,78 @@ const Footer = () => {
       <div className="footer-wrapper">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3"></div>
             <div className="col-lg-6">
-              <div className="footer-content">
-                <div className="footer-logo-wrapper">
-                  <img src={logoft} alt="logo" />
+              <div className="new-letter">
+                <h2>Get New & Offers</h2>
+                <p>Follow the latest articles and resources</p>
+                <div class="form-control-footer">
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
                 </div>
-                <div className="footer-text">
-                  <p>
-                    Scott L. Miller has earned his Master’s degree in social
-                    work and boasts extensive experience as a psychiatric and
-                    medical LCSW in both public and private settings.
-                  </p>
-                </div>
-                <div className="footerLinks">
-                  <ul>
-                    <li>
-                      <Link to="#">Home</Link>
-                    </li>
-                    <li>
-                      <Link to="#">About</Link>
-                    </li>
-                    <li>
-                      <Link to="#">Services</Link>
-                    </li>
-                    <li>
-                      <Link to="#">Blog</Link>
-                    </li>
-                    <li>
-                      <Link to="#">Contact</Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="footersocial-icons">
-                  <ul>
-                    <li>
-                      <Link to="#">
-                        <i className="fa fa-facebook"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fa fa-twitter"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fa fa-instagram"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="fa fa-linkedin"></i>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+                <button
+                  className="btn-sumit-footer"
+                  type="submit"
+                  value="submit"
+                >
+                  Subscribe now
+                </button>
               </div>
             </div>
-            <div className="col-lg-3"></div>
+            <div className="col-md-3">
+              <div className="category-footer">
+                <h3>Categories</h3>
+                <ul>
+                  <li><a>Lunch menu</a></li>
+                  <li><a>Dessert</a></li>
+                  <li><a>Breakfast menu</a></li>
+                  <li><a>Drink</a></li>
+
+                </ul>
+              </div>
+
+            </div>
+            <div className="col-md-3">
+              <div className="category-footer">
+                <h3>Follow our</h3>
+                <ul>
+                  <li><a>Facebook</a></li>
+                  <li><a>Instagram</a></li>
+                  <li><a>Twitter</a></li>
+                  <li><a>Youtube</a></li>
+
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div className="row">
+             <div className="footer-link">
+              <ul className="footer-link-ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">Order Online</a></li>
+                <li><a href="#">Feed</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+             </div>
           </div>
         </div>
       </div>
-        <div className="footer-bottom-wrapper">
-          <div className="container-fluid">
-            <div className="row d-flex align-items-center">
-              <div className="col-lg-6">
-                <div className="footer-bottom-content">
-                  <p>© 2021 Scott L. Miller. All Rights Reserved.</p>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="footer-bottom-img">
-                  <img src={footerbottomimg} alt="" />
-                </div>
+      <div className="footer-bottom-wrapper">
+        <div className="container-fluid">
+          <div className="row d-flex align-items-center">
+            <div className="col-lg-12">
+              <div className="footer-bottom-content">
+                <p>Copyright 2024 Pepperonijoe. All Right Reserved</p>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </>
   );
 };

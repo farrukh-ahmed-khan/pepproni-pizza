@@ -9,6 +9,7 @@ import Home from "../Pages/Home/Home";
 import Aboutus from "../Pages/Aboutus/Aboutus"
 import Contactus from "../Pages/Contactus/Contactus"
 import MenuScreen from "../Pages/MenuScreen/MenuScreen";
+import Feed from "../Pages/Feed/FeedScreen";
 
 export default function Navigation() {
   
@@ -21,6 +22,7 @@ export default function Navigation() {
         <Route path="/Aboutus" element={<Aboutus />} />
         <Route path="/Contactus" element={<Contactus />} />
         <Route path="/MenuScreen" element={<MenuScreen />} />
+        <Route path="/Feed" element={<Feed />} />
         {/* <Route path="/accounts" element={<AccountsPage />} />
         <Route path="/dashboard" element={<DashHome />} />
         <Route path="/college" element={<College />} />
